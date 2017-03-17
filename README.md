@@ -1,3 +1,5 @@
+This tool makes it easier to update the ip of a windows computer in a whitelist used by an instance of [netflix-proxy](https://github.com/ab77/netflix-proxy)
+
 To install:
 - clone the repository/download the files
 - ensure you have a ssh key (to generate a new one use: `ssh-keygen -t dsa`)
