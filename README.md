@@ -2,6 +2,7 @@ This tool makes it easier to update the ip of a windows computer in a whitelist 
 
 To install:
 - clone the repository/download the files
+- copy the `update-ip-address.rb` file to your server instance at `/opt/netflix-proxy`
 - ensure you have a ssh key (to generate a new one use: `ssh-keygen -t dsa`)
 - copy your public ssh key to the server (eg: `scp id_dsa.pub root@192.168.1.3:./id_dsa.pub`)
 - add the key to authorized_keys2 files
